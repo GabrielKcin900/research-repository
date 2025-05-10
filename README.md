@@ -1,5 +1,7 @@
 This repository brings together all the codes and jupyter notebooks used to carry out the research "From Code to Field: Evaluating the Robustness of Convolutional Neural Networks for Disease Diagnosis in Mango Leaves".
 
+# Research pipeline summary
+
 A brief summary of what was done in the research: We took a dataset of mango leaves ([MangoLeafDB](https://www.kaggle.com/datasets/aryashah2k/mango-leaf-disease-dataset/data)), applied the Data Augmentation technique through corruptions and severities and created MangoLeadDB-C, where C is for Corrupted. We implement and validate the CNNs that we will use (ResNet50, ResNet101, VGG-16, Xception and LCNN) (Note: I used Keras for implementation). After validating the models, we submit them to an F1-Score evaluation for each network on top of MangoLeafDB-C. And then we see some results. Then we calculated the mCE and Relative mCE metrics, which are metrics to evaluate network robustness, and we obtained results. We concluded that specific models can be better than generalist models. And in our case, the LCNN was the one that performed best and is a small specialist model that was proposed by the article [Nosin Ibna Mahbub](https://ieeexplore.ieee.org/document/10101648).
 
 This project makes use of Dan Hendrycks [robustness](https://github.com/hendrycks/robustness) repository.
