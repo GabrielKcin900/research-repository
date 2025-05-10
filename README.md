@@ -7,14 +7,14 @@ A brief summary of what was done in the research: We took a dataset of mango lea
 This project makes use of Dan Hendrycks [robustness](https://github.com/hendrycks/robustness) repository.
 
 The research pipeline consists of:
--> Data acquisition
--> Manipulation
--> Creation of MangoLeafDB-C
--> Reorganizing database for F1-Score evaluation
--> Model validation
--> Evaluating models with MangoLeafDB-C (analysis based on F1-Score)
--> Reorganizing database for CE, mCE and Relative mCE evaluation
--> Evaluating models with MangoLeafDB-C (error, Corruption Error, mCE, Relative mCE)
+* 1º - Data acquisition
+* 2º - Manipulation
+* 3º - Creation of MangoLeafDB-C
+* 4º - Reorganizing database for F1-Score evaluation
+* 5º - Model validation
+* 6º - Evaluating models with MangoLeafDB-C (analysis based on F1-Score)
+* 7º - Reorganizing database for CE, mCE and Relative mCE evaluation
+* 8º - Evaluating models with MangoLeafDB-C (error, Corruption Error, mCE, Relative mCE)
 
 Note 1: Remember to change the variables of where the data is on your computer.
 
